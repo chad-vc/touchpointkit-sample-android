@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Touchpoint</string>
+    <string name="content_desc">Content Description</string>
+    <string name="main_title">Touchpoint Sample</string>
+
+    <string name="name">John Doe</string>
+    <string name="address">New York, USA</string>
+    <string name="posts">500+\nPosts</string>
+    <string name="answers">200+\nAnswers</string>
+    <string name="info">Info</string>
+    <string name="profession">Profession:</string>
+    <string name="designation">Web and Software Developer</string>
+    <string name="company">Company:</string>
+    <string name="company_name">AndroUI</string>
+    <string name="phone">Phone:</string>
+    <string name="phone_value">+111–111–1111</string>
+</resources>
