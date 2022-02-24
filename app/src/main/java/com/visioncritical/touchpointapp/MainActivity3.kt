@@ -9,8 +9,6 @@ class MainActivity3 : AppCompatActivity(R.layout.activity_main3) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        TouchPointActivity.shared.setCurrentScreen(this, "screen2")
-
         val txtName = findViewById<TextView>(R.id.textView)
         txtName.text = intent.getStringExtra("name")
 

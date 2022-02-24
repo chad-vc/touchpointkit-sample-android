@@ -2,6 +2,7 @@
     <string name="app_name">Touchpoint</string>
     <string name="content_desc">Content Description</string>
     <string name="main_title">Touchpoint Sample</string>
+    <string name="fragment_text">I am a fragment</string>
 
     <string name="name">John Doe</string>
     <string name="address">New York, USA</string>
