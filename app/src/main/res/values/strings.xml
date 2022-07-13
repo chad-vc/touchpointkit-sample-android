@@ -1,8 +1,12 @@
 <resources>
-    <string name="app_name">Touchpoint</string>
+    <string name="app_name">TouchPoint</string>
+    <string name="title_home">Home</string>
+    <string name="title_banner">Banner</string>
+    <string name="title_popup">Popup</string>
+    <string name="title_custom_component">Custom Component</string>
+
     <string name="content_desc">Content Description</string>
-    <string name="main_title">Touchpoint Sample</string>
-    <string name="fragment_text">I am a fragment</string>
+    <string name="main_title">ALIDA</string>
 
     <string name="name">John Doe</string>
     <string name="address">New York, USA</string>

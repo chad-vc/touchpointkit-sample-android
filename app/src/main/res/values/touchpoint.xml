@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="api_key">API_KEY_HERE</string>
-    <string name="api_secret">API_SECRET_HERE</string>
-    <string name="pod_name">NA1</string>
-    <bool name="disable_api_filter">true</bool>
-    <bool name="enable_debug_logs">true</bool>
-    <bool name="disable_all_logs">false</bool>
-    <bool name="disable_caching">false</bool>
+    <string name="touchpoint_api_key">API_KEY</string>
+    <string name="touchpoint_api_secret">API_SECRET</string>
+    <string name="touchpoint_pod_name">POD_NAME</string>
+    <bool name="touchpoint_disable_api_filter">false</bool>
+    <bool name="touchpoint_enable_debug_logs">false</bool>
+    <bool name="touchpoint_disable_all_logs">false</bool>
+    <bool name="touchpoint_disable_caching">false</bool>
 </resources>
