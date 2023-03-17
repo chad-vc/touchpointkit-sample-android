@@ -93,6 +93,12 @@ class CustomComponentFragment : Fragment(), TouchPointActivityListener {
         return root
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        TouchPointActivity.shared.refreshActivities()
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
