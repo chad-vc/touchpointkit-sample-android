@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             hashMapOf("screenName" to "Custom Component Screen", "componentName" to "Button 2"),
             hashMapOf("screenName" to "Custom Component Screen", "componentName" to "Button 3")
         )
+        val locale: String = "FR"
         val visitor: HashMap<String, Any> = HashMap<String, Any>()
         visitor["id"] = "12346"
         val userAttributes: Array<HashMap<String, Any>> = Array(4) { i -> HashMap<String, Any>() }
@@ -58,6 +59,9 @@ class MainActivity : AppCompatActivity() {
         userAttributes[3] = hashMapOf("key" to "startDate", "type" to "date", "value" to "2022-04-11T21:51:34+0000")
         visitor["userAttributes"] = userAttributes
 
-        TouchPointActivity.shared.configure(screenComponents, visitor)
+        TouchPointActivity.shared.configure(screenComponents, visitor
+            // Uncomment this to see it in French
+            // , locale
+        )
     }
 }
